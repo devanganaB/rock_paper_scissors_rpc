@@ -2,6 +2,7 @@
 import random
 from xmlrpc.server import SimpleXMLRPCServer
 from xmlrpc.server import SimpleXMLRPCRequestHandler
+import threading
 
 # Define the request handler class
 class RequestHandler(SimpleXMLRPCRequestHandler):
@@ -80,6 +81,18 @@ class RPSGame:
     def get_game_history(self):
         """Get the history of all games played"""
         return game_history
+    
+    def reset_scores(self):
+        """Reset all scores to zero"""
+        for player in player_scores:
+            player_scores[player] = 0
+        return "All scores have been reset"
+    
+    def reset_game_history(self):
+        """Reset game history"""
+        global game_history
+        game_history = []
+        return "Game history has been cleared"
 
 # Create server
 def start_server(host="localhost", port=8000):
@@ -101,4 +114,12 @@ def start_server(host="localhost", port=8000):
         print("Exiting server...")
 
 if __name__ == "__main__":
-    start_server()
+    # start_server()
+    # Start the server in a thread
+    server_thread = threading.Thread(target=start_server)
+    server_thread.daemon = True
+    server_thread.start()
+    
+    print("Server is running. Press Enter to stop.")
+    input()  # Wait for Enter key to stop the server
+    print("Server stopped.")
