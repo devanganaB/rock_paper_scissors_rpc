@@ -2,11 +2,13 @@
 
 A distributed Rock Paper Scissors game implemented using a client-server architecture with Remote Procedure Calls (RPC). Multiple clients can connect and play the game simultaneously, with state and score managed on the server side.
 
+
 ---
 
 ## 📦 Project Overview
 
 This project demonstrates the use of RPC for communication between client and server, enabling multiple players to register, play, and track their scores in a classic Rock Paper Scissors game.
+
 
 ---
 
@@ -16,6 +18,7 @@ This project demonstrates the use of RPC for communication between client and se
 
 - Python 3.x
 - `xmlrpc` library (comes pre-installed with Python)
+
 
 ---
 
@@ -37,6 +40,7 @@ python rpc_client.py
 ```
 ✅ You can open and run multiple clients simultaneously to simulate different players connecting to the same server.
 
+
 ---
 
 ## 🎯 Features
@@ -52,6 +56,7 @@ python rpc_client.py
 
 - 🔁 RPC Communication between client and server
 
+
 ---
 
 ## 🧠 Distributed Computing Concepts Demonstrated
@@ -66,6 +71,7 @@ The server keeps track of player states, scores, and history across all sessions
 
 - ⚙️ Concurrency
 Server handles requests from multiple clients concurrently.
+
 
 ---
 
@@ -83,8 +89,16 @@ project-folder/
 ## 📬 Contact
 For questions or suggestions, feel free to reach out! 😊
 
----
 
+---
+## Screenshots
+
+![Screenshot 2025-04-08 202536](https://github.com/user-attachments/assets/19a4a3ab-7f70-4e08-b32d-41fcdaf3a6ce)
+
+![Screenshot 2025-04-08 202458](https://github.com/user-attachments/assets/a93177e8-e868-4646-a32b-50509eb59f7e)
+
+
+---
 ## 📄 License
 This project is open-source and free to use under the [MIT License](https://opensource.org/licenses/MIT).
 
