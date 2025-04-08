@@ -36,7 +36,7 @@ python rpc_server.py
 In a separate terminal, run:
 
 ```bash
-python rpc_client.py
+python rpc_client_gui2.py
 ```
 ✅ You can open and run multiple clients simultaneously to simulate different players connecting to the same server.
 
@@ -80,15 +80,10 @@ Server handles requests from multiple clients concurrently.
 ```bash
 project-folder/
 │
-├── server.py          # Main server script
-├── client.py          # Client script to play the game
+├── rpc_server.py          # Main server script
+├── rpc_client_gui2.py          # Client script to play the game
 └── README.md          # You're here!
 ```
----
-
-## 📬 Contact
-For questions or suggestions, feel free to reach out! 😊
-
 
 ---
 ## Screenshots
@@ -113,8 +108,10 @@ For questions or suggestions, feel free to reach out! 😊
 ![Screenshot 2025-04-08 215136](https://github.com/user-attachments/assets/7d1c0920-872e-4655-a91d-2c134ecfd24b)
 
 
+---
 
-
+## 📬 Contact
+For questions or suggestions, feel free to reach out! 😊
 
 ---
 ## 📄 License
