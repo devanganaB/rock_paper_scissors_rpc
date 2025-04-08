@@ -93,17 +93,25 @@ For questions or suggestions, feel free to reach out! 😊
 ---
 ## Screenshots
 
+Registration
 ![Screenshot 2025-04-08 202536](https://github.com/user-attachments/assets/19a4a3ab-7f70-4e08-b32d-41fcdaf3a6ce)
 
+Score-board of all players
 ![Screenshot 2025-04-08 202458](https://github.com/user-attachments/assets/a93177e8-e868-4646-a32b-50509eb59f7e)
 
+Left side player: Bibi, Right side player : Devangana
+![Screenshot 2025-04-08 214828](https://github.com/user-attachments/assets/1fb82a45-813f-4dc8-9601-f765f15791e5)
+
+Both player's game history visible on right
 ![Screenshot 2025-04-08 214945](https://github.com/user-attachments/assets/3d928b87-6d09-4fc7-ae14-c9d36ec4c388)
 
+Left side BEFORE score updation
 ![Screenshot 2025-04-08 215105](https://github.com/user-attachments/assets/8f351058-95a8-4488-9042-2219fc104927)
 
+Left side AFTER score updation
 ![Screenshot 2025-04-08 215136](https://github.com/user-attachments/assets/7d1c0920-872e-4655-a91d-2c134ecfd24b)
 
-![Screenshot 2025-04-08 214828](https://github.com/user-attachments/assets/1fb82a45-813f-4dc8-9601-f765f15791e5)
+
 
 
 
