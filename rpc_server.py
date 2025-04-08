@@ -43,7 +43,7 @@ class RPSGame:
         result = self._determine_winner(player_choice, computer_choice)
         
         # Update scores
-        if "win" in result:
+        if "win" in result and "Computer" not in result:
             player_scores[player_name] += 1
         
         # Add to game history
